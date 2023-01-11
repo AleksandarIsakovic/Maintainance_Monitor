@@ -7,5 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Controller {
-
+    @PostMapping("/api/message/reset")
+    public String reset(){
+        maintainceMessage= "Everything works as expected";
+        return "ok";
+    }
 }
