@@ -30,9 +30,9 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
-  -run: mkdir download &&cp target/*.jar download
+  -run: mkdir download && cp target/*.jar download
   -name: upload a Build Artifact
-  uses: action/upload-artifact@v3.1.0
+  uses: actions/upload-artifact@v3.1.0
   with:
     name: Maintainance_Monitor
     path: /Desktop
