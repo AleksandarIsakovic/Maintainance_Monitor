@@ -1,5 +1,4 @@
-package at.fhtw.bic3.g9.maintanance_monitor2;
-
+package slm.mm.maintainance_monitor;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
